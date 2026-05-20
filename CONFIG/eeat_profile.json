@@ -1,0 +1,28 @@
+{
+  "site_name": "Beagle Club",
+  "site_url": "https://beagle-club.github.io",
+  "niche": "Beagle dogs",
+  "brand_voice": "Warm, community-driven, written by beagle owners for beagle owners",
+  "editorial_voice": "Conversational and honest — sharing what actually works in daily beagle life",
+  "primary_author_label": "Beagle Club Editors",
+  "reviewer_label": "Beagle Club Community Review",
+  "update_owner_label": "Beagle Club Content Desk",
+  "about_title": "Our Story",
+  "editorial_policy_title": "How We Write Our Guides",
+  "disclosure_title": "Site Funding Note",
+  "ai_assistance_disclosure": "Some drafts on this site are assisted by AI writing tools; all content is reviewed and edited by our editorial team before publication.",
+  "article_eeat_block_variants": [
+    "<div style=\"border-left:4px solid #9f1239;background:#fef2f5;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#9f1239;\">Reviewed by Beagle Club Editors</strong> — This guide reflects the shared experience of our beagle-owning community and is updated when new information warrants a change.</p></div>",
+    "<div style=\"border-left:4px solid #9f1239;background:#fef2f5;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#9f1239;\">Beagle Club Editors</strong> — Written from practical beagle ownership experience. We focus on what actually happens day-to-day with this breed.</p></div>",
+    "<div style=\"border:1px solid #f9a8b7;background:#fff7f9;padding:14px 18px;margin:24px 0;border-radius:6px;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#9f1239;\">Community-Tested Guidance</strong> — Content on Beagle Club is written by owners who live with beagles. No fluff, just what matters for this scenthound breed.</p></div>",
+    "<div style=\"background:#9f1239;color:#fff;padding:14px 18px;margin:24px 0;border-radius:6px;\"><p style=\"margin:0;font-size:0.93rem;\"><strong>Beagle Club Editorial Note:</strong> This article covers a topic our readers ask about most. If anything has changed or needs correcting, <a href=\"/contact.html\" style=\"color:#fdd;\">let us know</a>.</p></div>",
+    "<div style=\"border-top:2px solid #9f1239;padding-top:12px;margin:24px 0;\"><p style=\"font-size:0.88rem;color:#6b7280;margin:0;\">Published by the <strong style=\"color:#9f1239;\">Beagle Club Editorial Team</strong>. We cover scent-hound behavior, training challenges, and the real lifestyle decisions that come with owning a beagle.</p></div>"
+  ],
+  "disclosure_variants": [
+    "Beagle Club participates in Amazon affiliate programs. When you click a product link and buy something, we may earn a small commission at no extra cost to you.",
+    "Some links in our guides are affiliate links. We earn a commission if you purchase — your price stays the same.",
+    "This site uses affiliate links. Commission earned helps fund new guides, but never influences which products we mention.",
+    "Affiliate income supports Beagle Club. Our product mentions reflect genuine usefulness for beagle owners, not advertiser relationships.",
+    "Beagle Club may earn affiliate commissions through Amazon links. This doesn't change what we recommend or what you pay."
+  ]
+}
