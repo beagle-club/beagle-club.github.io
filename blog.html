@@ -436,6 +436,43 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}.main-content>article:hover{transform:none}}
 </style>
 <style id="cz">/* Beagle design marker. Shared stylesheet is sc-beagle-design. */</style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="Beagle Guide — Care, Facts &amp; National Day">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://beagle-club.github.io/blog.html">
+<meta property="og:description" content="Your complete resource for Beagle lovers. Breed facts, care tips, national day celebration guide and more.">
+<meta property="og:image" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Illustration of a Beagle sniffing wildflowers on a meadow path">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beagle Guide — Care, Facts &amp; National Day">
+<meta name="twitter:description" content="Your complete resource for Beagle lovers. Breed facts, care tips, national day celebration guide and more.">
+<meta name="twitter:image" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="Illustration of a Beagle sniffing wildflowers on a meadow path">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -481,7 +518,7 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
       <span class="cat-tag">Training</span>
     </div>
 </section>
-<div class="page-wrap">
+<div class="page-wrap" data-follow-parent="true">
 
   <!-- MAIN CONTENT -->
   <main class="main-content">
@@ -537,7 +574,7 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
   </main>
 
   <!-- SIDEBAR -->
-  <aside class="sidebar">
+  <aside class="sidebar" data-follow-sidebar="existing">
     
     
 

@@ -257,6 +257,43 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}.main-content>article:hover{transform:none}}
 </style>
 <style id="cz">/* Beagle design marker. Shared stylesheet is sc-beagle-design. */</style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="About Beagle Guide | Beagle Guide">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://beagle-club.github.io/about.html">
+<meta property="og:description" content="Who runs Beagle Guide and how its guides are researched and checked.">
+<meta property="og:image" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Illustration of a Beagle sniffing wildflowers on a meadow path">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Beagle Guide | Beagle Guide">
+<meta name="twitter:description" content="Who runs Beagle Guide and how its guides are researched and checked.">
+<meta name="twitter:image" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="Illustration of a Beagle sniffing wildflowers on a meadow path">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -280,10 +317,10 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 
 <nav class="breadcrumb" aria-label="Breadcrumb"><div class="breadcrumb-inner" style="max-width:1120px;"><a href="/">Home</a><span>›</span><span aria-current="page">About Beagle Guide</span></div></nav>
 <div class="wrap">
-  <section class="panel">
+  <div class="follow-sidebar-layout"><section class="panel" data-follow-content="true">
 <h1>About Beagle Guide</h1>
 <p style="margin:0 0 14px">Beagle Club is edited by Tom Rowley, who started collecting beagle questions after noticing how many of them begin with &quot;is it normal that…&quot;. Howling at the neighbour&#x27;s cat, escaping through a gap you didn&#x27;t know existed, gaining weight on the same food: the answers are usually more interesting than they look.</p><p style="margin:0 0 14px">Tom is a writer, not a vet. The articles pull together veterinary references, breed studies and owner experience, and the sources sit right next to the claims they support. When the numbers are uncertain, you will see a range rather than a single confident figure.</p><p style="margin:0 0 14px">Corrections are welcome. Beagles change, research changes, and a guide that is wrong helps nobody.</p><p>How we write and check guides: <a href="/editorial-policy.html">editorial policy</a> · <a href="/disclosure.html">disclosure</a> · <a href="/contact.html">contact</a>.</p>
-</section>
+</section><aside data-follow-sidebar="added" aria-label="Sidebar"><section class="follow-sidebar-panel"><h2>Explore</h2><ul><li><a href="/">Home</a></li><li><a href="/blog.html">All guides</a></li><li><a href="/about.html">About this blog</a></li><li><a href="/contact.html">Contact</a></li></ul></section></aside></div>
 </div>
 
 
