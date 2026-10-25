@@ -257,6 +257,43 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}.main-content>article:hover{transform:none}}
 </style>
 <style id="cz">/* Beagle design marker. Shared stylesheet is sc-beagle-design. */</style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="Sitemap — Beagle Guide">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://beagle-club.github.io/sitemap.html">
+<meta property="og:description" content="Use this page to jump directly to the main pages and current articles on Beagle Guide.">
+<meta property="og:image" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Illustration of a Beagle sniffing wildflowers on a meadow path">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sitemap — Beagle Guide">
+<meta name="twitter:description" content="Use this page to jump directly to the main pages and current articles on Beagle Guide.">
+<meta name="twitter:image" content="https://beagle-club.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="Illustration of a Beagle sniffing wildflowers on a meadow path">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -280,11 +317,11 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 
 <nav class="breadcrumb" aria-label="Breadcrumb"><div class="breadcrumb-inner" style="max-width:1120px;"><a href="/">Home</a><span>›</span><span aria-current="page">Beagle Guide Sitemap</span></div></nav>
 <div class="wrap">
-  <section class="panel">
+  <div class="follow-sidebar-layout"><section class="panel" data-follow-content="true">
     <h1>Beagle Guide Sitemap</h1>
     <p class="intro">Use this page to jump directly to the main pages and current articles on Beagle Guide.</p>
     <h2>Main Pages</h2><ul><li><a href="/">Home</a></li><li><a href="/blog.html">Blog</a></li><li><a href="/care.html">Care</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/privacy.html">Privacy</a></li></ul><h2>Articles</h2><ul><li><a href="/beagle-fetch-scent-games.html">Beagles Won&#x27;t Fetch Outdoors? Try Scent Games</a> <span style="color:#6b7280;">(2026-10-22)</span></li><li><a href="/when-do-beagles-calm-down.html">When Do Beagles Calm Down? Owner Reports by Age</a> <span style="color:#6b7280;">(2026-10-22)</span></li><li><a href="/beagle-harness-size-chart.html">Beagle Harness Size Chart: Ruffwear, Julius-K9, Kong &amp; More</a> <span style="color:#6b7280;">(2026-10-15)</span></li><li><a href="/beagle-obesity-24-percent-statistic.html">Why 1 in 4 Beagles Get Fat</a> <span style="color:#6b7280;">(2026-05-26)</span></li><li><a href="/ridglan-farms-beagle-liberation-adoption-guide.html">Beagle Liberation: 847 Dogs Adopted</a> <span style="color:#6b7280;">(2026-05-22)</span></li><li><a href="/can-beagles-be-left-alone.html">Leave Your Beagle Alone (Without Guilt or Destruction)</a> <span style="color:#6b7280;">(2026-05-17)</span></li><li><a href="/disclosure.html">Site Funding Note — Beagle Club</a> <span style="color:#6b7280;">(2026-01-01)</span></li><li><a href="/editorial-policy.html">How We Write Our Guides — Beagle Club</a> <span style="color:#6b7280;">(2026-01-01)</span></li></ul>
-  </section>
+  </section><aside data-follow-sidebar="added" aria-label="Sidebar"><section class="follow-sidebar-panel"><h2>Explore</h2><ul><li><a href="/">Home</a></li><li><a href="/blog.html">All guides</a></li><li><a href="/about.html">About this blog</a></li><li><a href="/contact.html">Contact</a></li></ul></section></aside></div>
 </div>
 
 
