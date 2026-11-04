@@ -409,6 +409,22 @@ html body .sidebar .bgc-week li.bgc-on{background:var(--bgc-yellow)}
 @media (max-width:767px){:root{--bgc-pad:18px}html body{font-size:17px}.bgc-logo,.bgc-logo:visited{font-size:31px;padding-right:52px}.bgc-logo-pop{font-size:13px}.bgc-cover-in{grid-template-columns:1fr;padding-top:40px;padding-bottom:52px;gap:44px}.bgc-cover h1{font-size:44px}.bgc-lead{font-size:19px}.bgc-panel{max-width:440px;margin:0 auto;transform:rotate(1deg)}.bgc-bubble{left:-6px;font-size:21px;padding:14px 18px 10px}.bgc-burst{right:-8px;width:84px;height:84px;font-size:17px}.bgc-sec{padding-top:54px;padding-bottom:54px}.bgc-strip,.bgc-cards,.bgc-nums,.bgc-list{grid-template-columns:minmax(0,1fr)}.bgc-cards .card:first-child{grid-column:auto}.bgc-cards .card:first-child :is(h2,h3){font-size:30px}.bgc-path{display:flex}.bgc-num b{font-size:72px}.bgc-final-in{flex-direction:column;align-items:flex-start;padding-top:52px;padding-bottom:52px}.bgc-end-in{grid-template-columns:1fr;gap:26px}.bgc-end-the{justify-self:start;font-size:52px}.bgc-btn,.bgc-btn:visited{max-width:360px;text-align:center}html body .hero-inner{padding:34px var(--bgc-pad) 40px}html body .hero-inner.with-photo{display:block}html body .hero-photo{display:none}html body .hero h1{font-size:36px}html body .hero .lead{font-size:17px}html body .layout{grid-template-columns:minmax(0,1fr);margin:30px auto 48px;gap:34px}html body .article{padding:24px 18px}html body .article h2{font-size:28px}html body .sidebar{position:static;display:grid}.bgc-side-cta{transform:none}html body .wrap{margin:30px auto 48px}html body .follow-sidebar-layout{grid-template-columns:1fr;gap:30px}html body .panel{padding:24px 18px}.bgc-tool-head h1{font-size:42px}html body .article .bgc-hand{grid-template-columns:minmax(0,1fr)}html body .article .bgc-play,html body .article .bgc-play:nth-child(even){transform:none}html body .article .bgc-tools{padding:16px}}
 @media print{.bgc-mast,.bgc-end,.sidebar,.bgc-setup,.bgc-tools,.bgc-tool-notes,.bgc-tool-head,.bgc-play .bgc-linkbtn,.bgc-skip{display:none!important}html body{background:#fff;color:#000;font-size:14px}html body .layout{display:block;margin:0;padding:0}html body .article{border:0;box-shadow:none;padding:0}html body .article .bgc-print-only{display:block;margin:0 0 12px;font-weight:700}html body .article .bgc-hand{grid-template-columns:1fr 1fr;gap:14px}html body .article .bgc-play,html body .article .bgc-play:nth-child(even){transform:none;box-shadow:none;border:2px solid #000;break-inside:avoid;animation:none}html body .article .bgc-play-tag{border-bottom:2px solid #000}html body .article .bgc-hand-wrap{margin:0}}
 </style>
+<style id="bgc-post-hero">
+:root{--bgc-side:320px;--bgc-gutter:44px}
+html body .hero.bgc-post-hero{background:none;border-bottom:0;max-width:var(--bgc-wrap);margin:0 auto;padding:44px var(--bgc-pad) 0;display:grid;grid-template-columns:minmax(0,1fr) var(--bgc-side);column-gap:var(--bgc-gutter)}
+html body .bgc-post-hero+.layout{grid-template-columns:minmax(0,1fr) var(--bgc-side);gap:var(--bgc-gutter);margin-top:34px}
+html body .bgc-post-hero .hero-inner,html body .bgc-post-hero .hero-inner.with-photo{grid-column:1;display:block;min-width:0;max-width:none;margin:0;padding:0}
+html body .bgc-post-hero h1{max-width:none;margin:18px 0 16px;font-size:clamp(32px,2.9vw,44px);line-height:1.1;overflow-wrap:break-word;text-shadow:3px 3px 0 var(--bgc-yellow)}
+html body .bgc-post-hero .lead{max-width:none;overflow-wrap:break-word}
+html body .bgc-post-hero .hero-inner.with-photo>.hero-photo{display:block;position:relative;margin:26px 0 0;padding:0;background:none;border:0;box-shadow:none;transform:none}
+html body .bgc-post-hero .hero-photo img{width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;border:4px solid var(--bgc-ink);box-shadow:var(--bgc-shadow);background:var(--bgc-dots),var(--bgc-yellow)}
+html body .bgc-mast .bgc-menu{background:none;border:0;border-radius:0;padding:0;margin:0}
+html body .bgc-post-hero .hero-photo figcaption{position:absolute;right:12px;bottom:12px;margin:0;background:#fff;border:2px solid var(--bgc-ink);padding:2px 8px;font-size:12px;line-height:1.4;color:var(--bgc-muted)}
+@media (min-width:1025px) and (max-width:1439px){:root{--bgc-side:300px;--bgc-gutter:36px}}
+@media (max-width:1024px){:root{--bgc-side:260px;--bgc-gutter:28px}}
+@media (max-width:767px){html body .hero.bgc-post-hero,html body .bgc-post-hero+.layout{grid-template-columns:minmax(0,1fr)}html body .hero.bgc-post-hero{padding-top:28px}html body .bgc-post-hero+.layout{margin-top:26px}html body .bgc-post-hero h1{font-size:32px}html body .bgc-post-hero .hero-inner.with-photo>.hero-photo{margin-top:20px}html body .bgc-post-hero .hero-photo img{box-shadow:4px 4px 0 var(--bgc-navy)}html body .bgc-post-hero+.layout .article table{display:block;max-width:100%;overflow-x:auto}}
+@media print{html body .hero.bgc-post-hero{display:block;padding:0}html body .bgc-post-hero .hero-photo{display:none}}
+</style>
 </head>
 <body>
 <a class="bgc-skip" href="#bgc-main">Skip to content</a>
@@ -427,7 +443,7 @@ html body .sidebar .bgc-week li.bgc-on{background:var(--bgc-yellow)}
 
 
 
-<section class="hero">
+<section class="hero bgc-post-hero">
   <div class="hero-inner with-photo">
     <p class="kicker">Beagle behavior guide</p>
     <h1>When Do Beagles Calm Down? What Beagle Owners Report by Age (and What Actually Helps)</h1>
